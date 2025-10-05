@@ -39,7 +39,12 @@ Run it locally with Streamlit:
 streamlit run app.py
 
 
-Features
+
+
+
+
+## Features
+
 
 Predicts house prices instantly based on input features
 
@@ -49,25 +54,37 @@ Trained ML model integrated using joblib
 
 Model can be retrained easily using a Jupyter notebook or script
 
-Lightweight and fast — easy to deploy on cloud platforms
+Lightweight and fast — easy to deploy on cloud platforms.
 
+---
 
-=> Installation
+## Installation
 
 Clone the repository
+---
 
 git clone https://github.com/krinakhunt12/House_Price_Prediction.git
 cd House_Price_Prediction
 
+## 
 
 Create a virtual environment (recommended)
+
+---
+
 
 python -m venv venv
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 
 
+## 
+
 Install dependencies
+
+---
+
+
 
 pip install -r requirements.txt
 
@@ -76,7 +93,8 @@ Run the Streamlit app
 streamlit run app.py
 
 
-=> Model Details
+
+##  Model Details
 
 Algorithm Used: (e.g. Linear Regression / Random Forest Regressor / XGBoost)
 
@@ -86,7 +104,12 @@ Model Serialization: joblib
 
 Dataset Source: (Mention your dataset if from Kaggle or CSV file)
 
-=> Example Workflow
+---
+
+
+
+
+##   Example Workflow
 
 Data Cleaning and Preprocessing
 
@@ -98,9 +121,14 @@ Saving model using joblib.dump(model, 'house_price_model.joblib')
 
 Loading model in Streamlit app for prediction
 
-=> Technologies Used
+---
+
+
+##    Technologies Used
 Component	Technology
 Frontend	Streamlit
 Backend / Model	Python (scikit-learn, pandas, numpy)
 Model Storage	joblib
-Deployment (optional)	Streamlit Cloud / Hugging Face Spaces / Render / Heroku
+Deployment (optional)	Streamlit Cloud / Hugging Face Spaces  / Heroku
+
+---
