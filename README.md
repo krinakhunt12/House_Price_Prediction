@@ -15,8 +15,6 @@ This project demonstrates how to build, train, and deploy an ML model in a simpl
 6. [Usage](#usage)  
 7. [Model Details](#model-details)  
 8. [Technologies Used](#technologies-used)  
-9. [Future Enhancements](#future-enhancements)  
-10. [Author](#author)  
 
 ---
 
